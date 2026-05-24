@@ -7,7 +7,7 @@ dependencies.
 ## Install
 
 ```bash
-npm install path-trie
+npm install && npm run build
 ```
 
 ## Quick Start
