@@ -1,0 +1,30 @@
+{
+  "name": "path-trie",
+  "version": "0.1.0",
+  "description": "Path-keyed trie with hierarchical segment keys, longest-prefix lookup, prefix iteration and deletion.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "tsc --noEmit",
+    "test": "node --test --import tsx tests/*.test.ts"
+  },
+  "keywords": [
+    "trie",
+    "path",
+    "prefix",
+    "routing",
+    "typescript"
+  ],
+  "author": "nripankadas07",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
